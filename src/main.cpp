@@ -1,11 +1,18 @@
-#include "net/Request.h"
-#include "net/Server.h"
+#include "http/Server.h"
 
 #include <iostream>
+#include <clocale>
+
+#pragma comment(lib, "Ws2_32.lib")
 
 int main()
 {
-	Server* server = new Server("127.0.0.1", "80");
-	
+	setlocale(LC_ALL, "Russian");
+
+	Server* server = new Server("192.168.0.108", "80");
+	server->setFrontendDirectory("frontend");
+	server->run();
+	delete server;
+
 	return 0;
 }

@@ -3,14 +3,19 @@
 #include <WS2tcpip.h>
 #include <string>
 #include <iostream>
+#include <map>
 
-#pragma comment(lib, "Ws2_32.lib")
+#include "ContentFile.h"
 
 class Server
 {
 private:
 
 	int listen_socket;
+	addrinfo* addr;
+	addrinfo hints;
+
+	std::map<std::string, ContentFile> files_;
 
 public:
 
@@ -18,4 +23,5 @@ public:
 	~Server();
 
 	void run();
+	void setFrontendDirectory(std::string path);
 };
