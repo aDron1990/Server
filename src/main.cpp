@@ -1,6 +1,5 @@
 #include "http/Server.h"
 
-#include <iostream>
 #include <clocale>
 
 #pragma comment(lib, "Ws2_32.lib")
