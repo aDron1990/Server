@@ -6,6 +6,8 @@
 #include <sstream>
 #include <algorithm>
 
+
+
 Server::Server(std::string ip_addr, std::string port)
 {
 	WSADATA wsaData;
@@ -18,7 +20,7 @@ Server::Server(std::string ip_addr, std::string port)
 	hints.ai_protocol = IPPROTO_TCP;
 	hints.ai_flags = AI_PASSIVE;
 
-	if (getaddrinfo("192.168.0.108", "80", &hints, &addr) != 0)
+	if (getaddrinfo(ip_addr.c_str(), port.c_str(), &hints, &addr) != 0)
 	{
 		WSACleanup();
 		std::terminate();

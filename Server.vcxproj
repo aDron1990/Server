@@ -92,6 +92,26 @@
     <ClInclude Include="src\http\Server.h" />
     <ClInclude Include="src\http\Request.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="frontend\images\1.jpg" />
+    <Image Include="frontend\images\3.jpg" />
+    <Image Include="frontend\images\gruz.jpg" />
+    <Image Include="frontend\images\logo.png" />
+    <Image Include="frontend\images\piter.jpg" />
+    <Image Include="frontend\images\sik.jpg" />
+    <Image Include="frontend\images\дино.jfif" />
+    <Image Include="frontend\images\Снимок экрана (1).png" />
+    <Image Include="frontend\images\Снимок экрана (2).png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frontend\About.html" />
+    <None Include="frontend\Contacts.html" />
+    <None Include="frontend\index.html" />
+    <None Include="frontend\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="frontend\fonts\Leto Text Sans Defect.otf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

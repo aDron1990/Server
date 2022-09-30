@@ -39,4 +39,40 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="frontend\images\1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="frontend\images\3.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="frontend\images\gruz.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="frontend\images\logo.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="frontend\images\piter.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="frontend\images\sik.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="frontend\images\дино.jfif" />
+    <Image Include="frontend\images\Снимок экрана (1).png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="frontend\images\Снимок экрана (2).png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frontend\About.html" />
+    <None Include="frontend\Contacts.html" />
+    <None Include="frontend\index.html" />
+    <None Include="frontend\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="frontend\fonts\Leto Text Sans Defect.otf" />
+  </ItemGroup>
 </Project>
