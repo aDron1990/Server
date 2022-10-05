@@ -104,6 +104,7 @@
     <Image Include="frontend\images\Снимок экрана (2).png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\Server.exe" />
     <None Include="frontend\About.html" />
     <None Include="frontend\Contacts.html" />
     <None Include="frontend\index.html" />

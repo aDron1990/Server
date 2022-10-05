@@ -71,6 +71,7 @@
     <None Include="frontend\Contacts.html" />
     <None Include="frontend\index.html" />
     <None Include="frontend\style.css" />
+    <None Include="bin\Debug\Server.exe" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="frontend\fonts\Leto Text Sans Defect.otf" />
