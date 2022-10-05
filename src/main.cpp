@@ -8,7 +8,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 
-	Server* server = new Server("192.168.0.108", "80");
+	Server* server = new Server("213.219.247.242", "80");
 	server->setFrontendDirectory("frontend");
 	server->run();
 	delete server;
